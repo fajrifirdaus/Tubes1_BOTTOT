@@ -21,6 +21,7 @@ install dan install program berikut
 - [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1.zip)
 - [**Bot Starter Pack**](tools/tubes1-IF2211-game-engine-1.1.0.zip)
 - **Yarn**
+  
 Run di terminal
 
 ```
