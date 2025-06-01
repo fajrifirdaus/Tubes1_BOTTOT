@@ -27,7 +27,7 @@
 **Link : [Portal Of Salvatior](https://youtu.be/uH6PpF52GZU)** 
 
 ## Description
-**Portal Of Salvatior** adalah sebuah permainan petualangan berjenis top-down adventure yang menjelajahi antariksa yang mengeksplorasi luar angkasa dengan tujuan untuk menemukan sumber daya baru untuk menyelamatkan umat manusia namun, astronot melakukan pendaratan darurat di planet asing yang belum pernah dijelajahi. Disana dia harus melawan banyak alien dan mempunyai misi untuk mengumpulkan 3 jenis item crystal agar dapat membuka portal yang membawa dia ke jalan keluar dari planet berbahaya tersebut. Selama mengeksplorasi, astronot harus berhati-hati karena di setiap langkah bisa bertemu dengan alien. Pencarian portal menjadi tujuan utama astronot dengan mencari 3 item crystal merah, hijau, dan biru yang tersembunyi di dalam planet. Suasana petualangan yang menegangkan dan penuh misteri menawarkan pengalaman petualangan yang mendalam dan memikat bagi para pemainnya.
+**BOTTOT** merupakan algoritma greedy yang cerdas dan adaptif, dirancang untuk mengumpulkan diamond secara efisien. Bot ini memprioritaskan diamond terdekat, menghindari diamond merah saat inventory ≥ 4, dan akan segera pulang ke base jika diamond sudah cukup (≥ 5) atau waktu hampir habis. Dengan dukungan strategi zig-zag, pemanfaatan teleporter, serta gerakan aman saat kondisi tidak ideal, BOTTOT mampu bergerak cepat dan efektif di berbagai situasi permainan.
 
 ## Library
 - [**pygame**](https://www.python.org/)
