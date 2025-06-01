@@ -15,7 +15,7 @@
 
 
 ## Program dan Instalasi
-install dan install program berikut
+install dan install program berikut lalu extract zip game engine dan bot starter pack nya
 - [**Node.js**](https://nodejs.org/en)
 - [**Docker Desktop**](https://www.docker.com/products/docker-desktop/)
 - [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1.zip)
