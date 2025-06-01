@@ -6,6 +6,8 @@
 
 [Description](#description)
 
+[Laporan dan Video](#laporan-dan-video)
+
 [Requirements Program dan Instalasi](#requirements-program-dan-instalasi)
 
 [Langkah-langkah](#langkah-langkah)
@@ -15,6 +17,8 @@
 ## Description
 **BOTTOT** merupakan algoritma greedy yang cerdas dan adaptif, dirancang untuk mengumpulkan diamond secara efisien. Bot ini memprioritaskan diamond terdekat, menghindari diamond merah saat inventory ≥ 4, dan akan segera pulang ke base jika diamond sudah cukup (≥ 5) atau waktu hampir habis. Dengan dukungan strategi zig-zag, pemanfaatan teleporter, serta gerakan aman saat kondisi tidak ideal, BOTTOT mampu bergerak cepat dan efektif di berbagai situasi permainan.
 
+## Laporan dan Video
+**Link :**  [**BOTTOT**](https://drive.google.com/drive/folders/1d5xP7iAXmaR4xBFynAgHJYXVvLj2LJRh)
 
 ## Requirements Program dan Instalasi
 install program berikut
