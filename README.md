@@ -8,6 +8,8 @@
 
 [Program dan Instalasi](#program-dan-instalasi)
 
+[Langkah-langkah](#langkah-langkah)
+
 [Author](#author)
 
 ## Description
@@ -15,7 +17,7 @@
 
 
 ## Program dan Instalasi
-install dan install program berikut lalu extract zip game engine dan bot starter pack nya
+install dan install program berikut
 - [**Node.js**](https://nodejs.org/en)
 - [**Docker Desktop**](https://www.docker.com/products/docker-desktop/)
 - [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1.zip)
@@ -26,8 +28,7 @@ install dan install program berikut lalu extract zip game engine dan bot starter
   npm install --global yarn
   ```
 
-
-## How to Play
+## Langkah-langkah
 ![Image_2](graphics/readme/guide.png)
 
 <li> Install Python 3.11 or higher</li>
