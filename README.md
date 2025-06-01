@@ -17,9 +17,11 @@
 ## Program dan Instalasi
 - [**Node.js**](https://nodejs.org/en)
 - [**Docker Desktop**](https://www.docker.com/products/docker-desktop/)
-- [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1)
+- [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1.zip)
+- [**Bot Starter Pack**](tools/tubes1-IF2211-game-engine-1.1.0.zip)
 <li> Yarn </li>
 Run di terminal
+
 ```
 npm install --global yarn
 ```
