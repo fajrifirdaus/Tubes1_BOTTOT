@@ -1,21 +1,12 @@
 <h1 align="center">BOTTOT</h1>
 
-![Image_1]()
+![Image_1](readme/Implementasi.png)
 
 # Table of Contents
-[Team Name](#team-name) 
 
 [You Tube](#you-tube)
 
 [Description](#description)
-
-[Library](#library)
-
-[How to Play](#howtoplay)
-
-[UML Diagram](#UMLDiagram)
-
-[Contributors](#contributors)
 
 [Thanks To](#thanks-to)
 
