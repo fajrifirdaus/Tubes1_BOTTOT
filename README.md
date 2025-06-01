@@ -29,42 +29,42 @@ install program berikut
 
 ## Langkah-langkah
 **1. Cara Menjalankan Game Engine**
-     Pastikan program dan instalasi sudah di install semua
-     - **instalasi dan konfigurasi awal**
-       1) Download source code (.zip) pada [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1.zip)
-       2) Extract zip tersebut, lalu masuk ke folder hasil extractnya dan buka terminal, disarankan pakai terminal vscode
-       3) Masuk ke root directory dari project (sesuaikan dengan nama rilis terbaru)  
+     Pastikan program dan instalasi sudah di install semua  
+     - **instalasi dan konfigurasi awal**  
+       1) Download source code (.zip) pada [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1.zip)  
+       2) Extract zip tersebut, lalu masuk ke folder hasil extractnya dan buka terminal, disarankan pakai terminal vscode  
+       3) Masuk ke root directory dari project (sesuaikan dengan nama rilis terbaru)    
           ```
           cd tubes1-IF2110-game-engine-1.1.0
-          ```
-       4) Install dependencies menggunakan Yarn  
+          ```  
+       4) Install dependencies menggunakan Yarn    
           ```
           yarn
-          ```
-       5) Setup default environment variable dengan menjalankan script berikut  
-          Untuk Windows  
+          ```  
+       5) Setup default environment variable dengan menjalankan script berikut    
+          Untuk Windows    
           ```
           ./scripts/copy-env.bat
-          ```
-          Untuk Linux / (possibly) macOS  
+          ```  
+          Untuk Linux / (possibly) macOS    
           ```
           chmod +x ./scripts/copy-env.sh
           ./scripts/copy-env.sh
-          ```
-       6) Setup local database (buka aplikasi docker desktop terlebih dahulu, lalu jalankan command berikut di terminal)  
+          ```  
+       6) Setup local database (buka aplikasi docker desktop terlebih dahulu, lalu jalankan command berikut di terminal)    
           ```
           docker compose up -d database
-          ```
-          Lalu jalankan script berikut.   
+          ```  
+          Lalu jalankan script berikut.     
           Untuk Windows  
           ```
           ./scripts/setup-db-prisma.bat
-          ```
+          ```  
           Untuk Linux / (possibly) macOS  
-          ```
+          ```  
           chmod +x ./scripts/setup-db-prisma.sh
           ./scripts/setup-db-prisma.sh
-          ```
+          ```  
 
 
 
