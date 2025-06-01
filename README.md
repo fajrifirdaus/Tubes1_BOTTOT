@@ -8,14 +8,6 @@
 
 [Description](#description)
 
-[Library](#library)
-
-[How to Play](#howtoplay)
-
-[UML Diagram](#UMLDiagram)
-
-[Contributors](#contributors)
-
 [Thanks To](#thanks-to)
 
 ## Team Name
