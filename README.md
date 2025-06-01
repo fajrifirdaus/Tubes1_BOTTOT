@@ -4,21 +4,15 @@
 
 # Table of Contents
 
-[You Tube](#you-tube)
-
 [Description](#description)
 
-[Thanks To](#thanks-to)
+[Author](#author)
 
-## Team Name
-**LAFAS UHUY**
 
-## You Tube
-![Image_4](graphics/readme/sampul.png)
-**Link : [Portal Of Salvatior](https://youtu.be/uH6PpF52GZU)** 
 
 ## Description
 **BOTTOT** merupakan algoritma greedy yang cerdas dan adaptif, dirancang untuk mengumpulkan diamond secara efisien. Bot ini memprioritaskan diamond terdekat, menghindari diamond merah saat inventory ≥ 4, dan akan segera pulang ke base jika diamond sudah cukup (≥ 5) atau waktu hampir habis. Dengan dukungan strategi zig-zag, pemanfaatan teleporter, serta gerakan aman saat kondisi tidak ideal, BOTTOT mampu bergerak cepat dan efektif di berbagai situasi permainan.
+
 
 ## Library
 - [**pygame**](https://www.python.org/)
@@ -44,22 +38,12 @@ python main.py
 ![Image_3](graphics/readme/UML_Diagram.png)
 
 
-## Contributors
+## Author
 
-| Nama | NIM | Contributor |
-| ---- | --- | --- |
-| Muhammad Fadhilah Akbar | 123140003 | Programmer, Lead Designer |
-| Annisa Al Qoriah | 123140030 | Programmer, Designer |
-| Sigit Kurnia Hartawan | 123140033 | Programmer, Designer |
-| Muhammad Fajri Firdaus | 123140050 | Lead Programmer, Lead Map Designer, Designer |
-| Louis Hutabarat | 123140052 | Programmer, Designer | 
+| Anggota | Nama | NIM | 
+| --- | ---- | --- | 
+| Ketua Kelompok | Muhammad Fajri Firdaus | 123140050 | 
+| Anggota 1 | Bayu Brigas Novaldi | 123140030 | 
 
-## Thanks To
-- [Freepik](freepik.com )
-- [Freesound](freesound.org)
-- [Clear Code](https://www.youtube.com/@ClearCode)
-- [Map Tiles](www.youtube.com/@gamefromscratch)
-- [Coding With Rush](https://www.youtube.com/@CodingWithRuss)
-- [fix eror](https://chatgpt.com/)
 
 
