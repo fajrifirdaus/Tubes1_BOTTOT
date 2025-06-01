@@ -3,7 +3,6 @@
 ![Image_1](readme/Implementasi.png)
 
 # Table of Contents
-[Team Name](#team-name) 
 
 [You Tube](#you-tube)
 
