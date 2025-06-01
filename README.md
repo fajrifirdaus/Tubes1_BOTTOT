@@ -30,7 +30,7 @@ install program berikut
 ## Langkah-langkah
 **1. Cara Menjalankan Game Engine**
      Pastikan program dan instalasi sudah di install semua  
-     - **instalasi dan konfigurasi awal**  
+- **instalasi dan konfigurasi awal**  
        1) Download source code (.zip) pada [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1.zip)  
        2) Extract zip tersebut, lalu masuk ke folder hasil extractnya dan buka terminal, disarankan pakai terminal vscode  
        3) Masuk ke root directory dari project (sesuaikan dengan nama rilis terbaru)    
