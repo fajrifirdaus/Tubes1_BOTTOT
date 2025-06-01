@@ -111,34 +111,34 @@ install program berikut
 
 **Note:**  
 1. Jika kalian menjalankan beberapa bot, pastikan setiap email dan nama unik
-2. Email bisa apa saja asalkan mengikuti sintaks email yang benar, tidak harus email yang terdaftar (misal stima22@email.com)
+2. Email bisa apa saja asalkan mengikuti sintaks email yang benar, tidak harus email yang terdaftar (misal FajriBayu@email.com)
 3. Nama dan password bisa apa saja tanpa spasi
 
 **3. Cara mengimplementasikan bot**  
 - Buatlah file(Logic) baru pada direktori /game/logic (misalnya bottot.py)
-- Buatlah kelas yang meng-inherit kelas BaseLogic, lalu implementasikan constructor dan method next_move pada kelas tersebut
+- Buatlah kelas yang meng-inherit kelas BaseLogic, lalu implementasikan constructor dan method next_move pada kelas tersebut  
   ![Image_5](readme/bottot1.png)
-**NOTE:** Next_move mengembalikan nilai delta_x dan delta_y, di mana nilai yang diperbolehkan hanyalah (1, 0), (0, 1), (-1, 0), (0, -1). Apabila nilai ilegal atau di-luar range board, maka move akan diabaikan oleh program
+**NOTE:** Next_move mengembalikan nilai delta_x dan delta_y, di mana nilai yang diperbolehkan hanyalah (1, 0), (0, 1), (-1, 0), (0, -1). Apabila nilai ilegal atau di-luar range board, maka move akan diabaikan oleh program  
 - Import kelas yang telah dibuat pada main.py dan daftarkan pada dictionary CONTROLLERS
-  ![Image_6](readme/main.png)
+  ![Image_6](readme/main.png)  
 - Jalankan program seperti step c pada bagian 2 (sesuaikan argumen logic pada command/script tersebut menjadi nama bot yang telah terdaftar pada CONTROLLERS). Anda bisa menjalankan satu bot saja atau beberapa bot menggunakan .bat atau .sh script.   
     ```
     python main.py --logic Bottot --email=your_email@example.com --name=your_name --password=your_password --team etimo
     ```
-**Note:**
+**Note:**  
 1. Kalian hanya boleh mengubah logic bot yang kalian buat saja (dalam contoh di atas adalah file mybot.py) dan main.py untuk mendaftarkan bot ke controller saja. Tidak diperbolehkan mengubah bagian lain (termasuk game engine), karena kalau rusak bakal repot sendiri.
 2. Diperbolehkan membuat fungsi/kelas tambahan di dalam file yang sama dengan file kelas bot yang kalian buat (tidak di file lain, karena akan menyulitkan saat pelaksanaan kompetisi).
-3. Tidak diperbolehkan menginstall package/library eksternal (misalnya package/library yang diinstall menggunakan pip install), karena akan menyulitkan saat pelaksanaan kompetisi. Silakan implementasikan sendiri atau gunakan library built-in seperlunya.
-- Beberapa konfigurasi permainan yang dapat diubah (do at your own risk)
+3. Tidak diperbolehkan menginstall package/library eksternal (misalnya package/library yang diinstall menggunakan pip install), karena akan menyulitkan saat pelaksanaan kompetisi. Silakan implementasikan sendiri atau gunakan library built-in seperlunya.  
+- Beberapa konfigurasi permainan yang dapat diubah (do at your own risk)  
   **Note :** Hasil perubahan konfigurasi kalian tidak akan digunakan pada kompetisi. Kemungkinan besar kompetisi akan menggunakan konfigurasi default, namun jika ada perubahan akan diumumkan kemudian.  
-- berikut cara meng-custom waktu bermain pada bot
-1) Nyalakan aplikasi docker desktop  
-2) Temukan ID dari container yang menyimpan database
+- berikut cara meng-custom waktu bermain pada bot  
+1) Nyalakan aplikasi docker desktop    
+2) Temukan ID dari container yang menyimpan database  
    ```
    docker ps
    ```
    ![Image_7](readme/custom_waktu.png)
-3) Masuk ke terminal bash docker tersebut  
+3) Masuk ke terminal bash docker tersebut    
    ```
    docker exec -it 932dd0304610 bash
    ```
@@ -146,15 +146,15 @@ install program berikut
    ```
    psql -U diamonds -d diamonds -p 5433
    ```
-5) Untuk menampilkan daftar tabel
+5) Untuk menampilkan daftar tabel  
    ```
    \dt
    ```
-6) Misalkan kalian ingin mengubah sessionLength menjadi 100 detik. Berikut caranya
+6) Misalkan kalian ingin mengubah sessionLength menjadi 100 detik. Berikut caranya  
    ```
    UPDATE "BoardConfig" SET "sessionLength" = 100;
    ```
-   Berikut adalah tabel BoardConfig setelah perubahan sessionLength (gambar sengaja dipotong agar muat di halaman)
+   Berikut adalah tabel BoardConfig setelah perubahan sessionLength (gambar sengaja dipotong agar muat di halaman)  
    ```
    SELECT * FROM "BoardConfig";
    ```
