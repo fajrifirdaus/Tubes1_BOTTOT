@@ -164,7 +164,7 @@ install program berikut
 | Anggota | Nama | NIM | 
 | --- | ---- | --- | 
 | Ketua Kelompok | Muhammad Fajri Firdaus | 123140050 | 
-| Anggota 1 | Bayu Brigas Novaldi | 123140030 | 
+| Anggota 1 | Bayu Brigas Novaldi | 123140072 | 
 
 
 
