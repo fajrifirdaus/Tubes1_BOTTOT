@@ -1,6 +1,6 @@
 <h1 align="center">BOTTOT</h1>
 
-![Image_1](readme/bottot.png)
+![Image_1](readme/bottot.png) ![Image_1](readme/Implementasi.png)
 
 # Table of Contents
 
