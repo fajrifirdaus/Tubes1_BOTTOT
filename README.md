@@ -1,6 +1,6 @@
 <h1 align="center">BOTTOT</h1>
 
-![Image_1](readme/Implementasi.png)
+![Image_1](readme/bottot.png)
 
 # Table of Contents
 
@@ -28,7 +28,7 @@ install program berikut
   ```
 
 ## Langkah-langkah
-**1. Cara Menjalankan Game Engine**
+**1. Cara Menjalankan Game Engine**  
      Pastikan program dan instalasi sudah di install semua  
 - **instalasi dan konfigurasi awal**  
 1) Download source code (.zip) pada [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1.zip)  
@@ -65,7 +65,7 @@ install program berikut
     chmod +x ./scripts/setup-db-prisma.sh
     ./scripts/setup-db-prisma.sh
     ```  
-- **Build**  
+- **Build**    
   ```
   npm run build
   ```
@@ -79,7 +79,7 @@ install program berikut
   ![Image_3](readme/map.png)
   
   
-**2. Cara menjalankan bot**
+**2. Cara menjalankan bot**  
      Pastikan Phyton sudah terinstall
 - **instalasi dan konfigurasi awal**  
 1) Download source code (.zip) pada [**Bot Starter Pack**](tools/tubes1-IF2211-game-engine-1.1.0.zip) 
