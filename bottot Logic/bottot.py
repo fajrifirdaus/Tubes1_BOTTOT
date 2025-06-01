@@ -1,3 +1,7 @@
+# Muhammad Fajri Firdaus (123140050 )
+# Bayu Brigas Novaldi (123140072)
+# Kelompok : BOTTOT
+
 from __future__ import annotations
 
 import random
@@ -8,7 +12,7 @@ from game.models import Board, GameObject, Position
 from ..util import get_direction
 
 
-class GreedyLogic(BaseLogic):
+class BottotLogic(BaseLogic):
     # Bot greedy yang sudah ditingkatkan dengan fitur:
     # - mengenali teleporter,
     # - gerakan zig-zag,
