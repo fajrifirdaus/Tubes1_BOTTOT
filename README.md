@@ -6,19 +6,24 @@
 
 [Description](#description)
 
+[Program dan Instalasi](#program-dan-instalasi)
+
 [Author](#author)
-
-
 
 ## Description
 **BOTTOT** merupakan algoritma greedy yang cerdas dan adaptif, dirancang untuk mengumpulkan diamond secara efisien. Bot ini memprioritaskan diamond terdekat, menghindari diamond merah saat inventory ≥ 4, dan akan segera pulang ke base jika diamond sudah cukup (≥ 5) atau waktu hampir habis. Dengan dukungan strategi zig-zag, pemanfaatan teleporter, serta gerakan aman saat kondisi tidak ideal, BOTTOT mampu bergerak cepat dan efektif di berbagai situasi permainan.
 
 
-## Library
-- [**pygame**](https://www.python.org/)
-- [**random**](https://docs.python.org/3/library/random.html)
-- [**math**](https://docs.python.org/3/library/math.html)
-- [**eror**](https://chatgpt.com/)
+## Program dan Instalasi
+- [**Node.js**](https://nodejs.org/en)
+- [**Docker Desktop**](https://www.docker.com/products/docker-desktop/)
+- [**Game Engine**](tools/tubes1-IF2211-bot-starter-pack-1.0.1)
+<li> Yarn </li>
+Run di terminal
+```
+npm install --global yarn
+```
+
 
 ## How to Play
 ![Image_2](graphics/readme/guide.png)
